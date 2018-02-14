@@ -1,0 +1,34 @@
+/* Scss Document */
+
+#cardbox {
+
+  display:inline;
+}		
+
+.skill-card {
+	padding:10px;
+	//width:100%;
+}
+
+//.card .card-title {
+//    width: 50%;
+//    padding-right: 10%;
+//    text-align: center;	
+//}
+
+.card-style {
+	height:100%;
+	border: 1px solid gray;
+	box-shadow: 1px 1px 3px #888;
+	border-top: 10px solid $darkhour;
+	display:block;
+	padding:10px;
+	overflow:hidden;
+	background-color:#FFFFFF;
+}
+#cardbox {
+  box-sizing: border-box;
+  justify-content: center;
+  display: flex;
+ flex-wrap: wrap;
+}

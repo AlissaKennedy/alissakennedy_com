@@ -1,0 +1,42 @@
+/* Scss Document */
+
+.social i {
+  font-size: 20px;
+  color: #ffffff;
+  transition: background 0.3s ease;
+  background-color:$darkhour;
+  width:35px;
+  height:35px;
+  text-align:center;
+  border-radius:50%;
+  padding:7.5px;
+	margin:15px 0 0 15px;
+}
+
+/* Small viewport or screen */
+@media only screen and (max-width : 350px) {
+  .social i {
+    font-size: 22px;
+    width:50px;
+    height:50px;
+    padding:12px;
+}
+}
+
+
+.social .fa-linkedin:hover {
+	background-color:#007bb5;	
+}
+ .social .fa-twitter:hover {
+	background-color:#55acee;	
+}
+.social .fa-facebook:hover {
+	background-color:#3b5998;	
+}
+.social .fa-instagram:hover {
+	background-color:#bc2a8d;	
+}
+.social .fa-behance:hover {
+	background-color:#053eff;	
+}
+  

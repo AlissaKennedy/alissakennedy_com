@@ -1,0 +1,20 @@
+/* Scss Document */
+
+// All Partials 
+@import "partials/variables";
+@import "partials/layout";
+@import "partials/buttons";
+@import "partials/typography";
+@import "partials/social-icons";
+@import "partials/gradient"; 	 
+@import "partials/progress-bar"; 	 
+
+// All Modules	
+@import "components/card";	
+@import "components/icons";	
+@import "components/toggle";
+@import "components/hover-gallery-color";
+
+// Vendor
+@import "vendor/photoswipe";
+//@import "vendor/default-skin/default-skin";

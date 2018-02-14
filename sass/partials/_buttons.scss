@@ -1,0 +1,28 @@
+/* Scss Document */
+
+.button-center {
+	text-align:center;
+	margin:30px 0 0 0;
+}
+
+
+.btn-action {
+  font-size: 18px;
+  color: #FFFFFF;
+  transition: background 0.5s ease;
+  background-color:$neonlotus;
+  border-color:$thirdeye;
+  border: 5px;
+  text-align:center;
+  padding:7.5px;
+  }
+.btn-action:hover {
+	background-color:$cobalt;  
+	color: #FFFFFF;
+}
+.btn:link, .btn:visited, .btn:active, .btn:hover {color:#FFF;}
+
+.button-center {
+	text-align:center;
+	margin:30px;
+}

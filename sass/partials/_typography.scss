@@ -1,0 +1,127 @@
+/* Scss Document */
+
+body {
+  font-family: $font-reg;
+  color: $midnight; 
+}
+
+
+h1, h2 {
+	font-family: $font-fancy;
+}
+h3, h4, h5 {
+    font-family: $font-geo;
+  font-weight:600;
+}
+
+h2 {text-align:center;display:inline-block;position:relative; margin:0 auto;}
+h3 {color:$thirdeye;}
+h5 {font-size:18px; margin:8px 0;}
+
+/* Medium viewport or screen */
+@media only screen and (max-width : 767px) {
+	h2 {font-size:30px;}
+	h3, h4 {font-size:22px;}
+	h5 {font-size:18px;}
+}
+
+
+.title {font-family: $font-geo;
+font-size:18px;
+}
+
+// LINKS
+
+a:link, a:visited {
+	color:$cobalt;
+	text-decoration:none;
+}
+a:hover, a:active {
+	text-decoration:underline;
+	color: #00CCFF;
+}
+
+#footer a:link, footer a:visited {
+	color:#FFFFFF;
+	text-decoration:none;
+}
+
+
+// NAV
+
+#text-logo {
+	color:#FFFFFF;
+	float: left;
+	display: block;
+	font-family: $font-fancy;
+	font-size:30px;
+}
+
+/* Medium viewport or screen */
+@media only screen and (max-width : 767px) {
+	#text-logo {
+		font-size:1.1rem;
+}
+}
+
+#text-logo:hover {
+	color:$aether;
+    transition: color 0.5s ease;
+}
+
+#menu .navbar-brand {
+    padding: 15px 0px 0px 15px;
+}
+
+#menu-content, footer {
+	font-family: $font-geo;
+	font-size:1.2rem;
+	float:right;
+	position:relative;
+
+}
+
+
+#menu-content li {margin:15px;}
+
+#menu-content li a:link, #menu-content li a:visited {
+	color:#ffffff;
+    transition: color 0.5s ease;
+}
+
+
+#menu-content li a:hover, #menu-content li a:active {
+	color:$aether;
+    transition: color 0.5s ease;
+	text-decoration:none;
+}
+
+#navbar-nav ul li a, footer ul li a{
+	display:inline-block;
+	position:relative;
+	padding:15px;
+}
+
+
+
+// Section Specific Rules
+
+#portfolio, #footer {
+	color:white;
+}
+
+.figure-caption {
+	background-color:#efefef;
+	padding:10px;
+	margin-bottom:30px;
+}
+
+/* Medium viewport or screen */
+@media only screen and (min-width : 992px) {
+	#stuff-about-me, #resume-intro {
+		font-size:1.4rem;
+		font-family: $font-geo;
+}
+}
+
+.mask {text-shadow: 2px 2px 4px #000000;}

@@ -1,0 +1,522 @@
+/* Scss Document */
+/* Scss Document */
+/* Scss Document */
+body {
+  padding-top: 60px; }
+
+body {
+  padding-top: 4.5rem; }
+
+.row {
+  padding: 30px; }
+
+.navbar {
+  border-bottom: 4px #6800AD solid; }
+
+.navbar, #menu #menu-content {
+  background: #000; }
+
+.image-scale {
+  max-width: 100%; }
+
+#portfolio {
+  background-image: url(../images/background/subtlepattern/concrete_wall/concrete_wall_@2X.png); }
+
+#resume-skills, #contact, #contactinfo {
+  background-image: url(../images/background/subtlepattern/subtle_grunge/subtle_grunge.png); }
+
+#portfolio ul {
+  list-style-type: none; }
+
+#footer {
+  background: #000453;
+  /* overflow: hidden; */ }
+
+.no-bullet {
+  list-style-type: none; }
+
+#contactsection {
+  border: solid 2px #6800AD;
+  margin-bottom: 30px; }
+
+.float-right {
+  float: right; }
+
+.text-right {
+  text-align: right; }
+
+.h-menu li {
+  display: inline-block; }
+
+/* Scss Document */
+.button-center {
+  text-align: center;
+  margin: 30px 0 0 0; }
+
+.btn-action {
+  font-size: 18px;
+  color: #FFFFFF;
+  transition: background 0.5s ease;
+  background-color: #B200B0;
+  border-color: #6800AD;
+  border: 5px;
+  text-align: center;
+  padding: 7.5px; }
+
+.btn-action:hover {
+  background-color: #0062FF;
+  color: #FFFFFF; }
+
+.btn:link, .btn:visited, .btn:active, .btn:hover {
+  color: #FFF; }
+
+.button-center {
+  text-align: center;
+  margin: 30px; }
+
+/* Scss Document */
+body {
+  font-family: "Open Sans", Helvetica, Verdana, sans-serif;
+  color: #0c0b41; }
+
+h1, h2 {
+  font-family: "Sofia", "Open Sans", Helvetica, Verdana, Sans-Serif; }
+
+h3, h4, h5 {
+  font-family: "Josefin Sans", Helvetica, Verdana, sans-serif;
+  font-weight: 600; }
+
+h2 {
+  text-align: center;
+  display: inline-block;
+  position: relative;
+  margin: 0 auto; }
+
+h3 {
+  color: #6800AD; }
+
+h5 {
+  font-size: 18px;
+  margin: 8px 0; }
+
+/* Medium viewport or screen */
+@media only screen and (max-width: 767px) {
+  h2 {
+    font-size: 30px; }
+
+  h3, h4 {
+    font-size: 22px; }
+
+  h5 {
+    font-size: 18px; } }
+.title {
+  font-family: "Josefin Sans", Helvetica, Verdana, sans-serif;
+  font-size: 18px; }
+
+a:link, a:visited {
+  color: #0062FF;
+  text-decoration: none; }
+
+a:hover, a:active {
+  text-decoration: underline;
+  color: #00CCFF; }
+
+#footer a:link, footer a:visited {
+  color: #FFFFFF;
+  text-decoration: none; }
+
+#text-logo {
+  color: #FFFFFF;
+  float: left;
+  display: block;
+  font-family: "Sofia", "Open Sans", Helvetica, Verdana, Sans-Serif;
+  font-size: 30px; }
+
+/* Medium viewport or screen */
+@media only screen and (max-width: 767px) {
+  #text-logo {
+    font-size: 1.1rem; } }
+#text-logo:hover {
+  color: #00CCFF;
+  transition: color 0.5s ease; }
+
+#menu .navbar-brand {
+  padding: 15px 0px 0px 15px; }
+
+#menu-content, footer {
+  font-family: "Josefin Sans", Helvetica, Verdana, sans-serif;
+  font-size: 1.2rem;
+  float: right;
+  position: relative; }
+
+#menu-content li {
+  margin: 15px; }
+
+#menu-content li a:link, #menu-content li a:visited {
+  color: #ffffff;
+  transition: color 0.5s ease; }
+
+#menu-content li a:hover, #menu-content li a:active {
+  color: #00CCFF;
+  transition: color 0.5s ease;
+  text-decoration: none; }
+
+#navbar-nav ul li a, footer ul li a {
+  display: inline-block;
+  position: relative;
+  padding: 15px; }
+
+#portfolio, #footer {
+  color: white; }
+
+.figure-caption {
+  background-color: #efefef;
+  padding: 10px;
+  margin-bottom: 30px; }
+
+/* Medium viewport or screen */
+@media only screen and (min-width: 992px) {
+  #stuff-about-me, #resume-intro {
+    font-size: 1.4rem;
+    font-family: "Josefin Sans", Helvetica, Verdana, sans-serif; } }
+.mask {
+  text-shadow: 2px 2px 4px #000000; }
+
+/* Scss Document */
+.social i {
+  font-size: 20px;
+  color: #ffffff;
+  transition: background 0.3s ease;
+  background-color: #00056b;
+  width: 35px;
+  height: 35px;
+  text-align: center;
+  border-radius: 50%;
+  padding: 7.5px;
+  margin: 15px 0 0 15px; }
+
+/* Small viewport or screen */
+@media only screen and (max-width: 350px) {
+  .social i {
+    font-size: 22px;
+    width: 50px;
+    height: 50px;
+    padding: 12px; } }
+.social .fa-linkedin:hover {
+  background-color: #007bb5; }
+
+.social .fa-twitter:hover {
+  background-color: #55acee; }
+
+.social .fa-facebook:hover {
+  background-color: #3b5998; }
+
+.social .fa-instagram:hover {
+  background-color: #bc2a8d; }
+
+.social .fa-behance:hover {
+  background-color: #053eff; }
+
+/* Scss Document */
+.gradient {
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#0062ff+0,6800ad+33,b200b0+65,e0043f+100 */
+  background: #0062ff;
+  /* Old browsers */
+  background: -moz-linear-gradient(left, #0062ff 0%, #6800ad 33%, #b200b0 66%, #e0043f 100%);
+  /* FF3.6-15 */
+  background: -webkit-linear-gradient(left, #0062ff 0%, #6800ad 33%, #b200b0 66%, #e0043f 100%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to right, #0062ff 0%, #6800ad 33%, #b200b0 66%, #e0043f 100%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0062ff', endColorstr='#e0043f',GradientType=1 );
+  /* IE6-9 */ }
+
+.gradi1 {
+  color: #E0043F; }
+
+.gradi2 {
+  color: #B200B0; }
+
+.gradi3 {
+  color: #6800AD; }
+
+.gradi4 {
+  color: #0062FF; }
+
+.gradi5 {
+  color: #00CCFF; }
+
+/* Scss Document */
+.progress {
+  background-color: #EBEBEB; }
+
+.progress-bar {
+  background-color: #0062FF; }
+
+.loading-title {
+  color: #6800AD;
+  font-weight: bold;
+  /*font-family: $font-geo;
+  font-size:1.5em;*/ }
+
+/* Scss Document */
+#cardbox {
+  display: inline; }
+
+.skill-card {
+  padding: 10px; }
+
+.card-style {
+  height: 100%;
+  border: 1px solid gray;
+  box-shadow: 1px 1px 3px #888;
+  border-top: 10px solid #00056b;
+  display: block;
+  padding: 10px;
+  overflow: hidden;
+  background-color: #FFFFFF; }
+
+#cardbox {
+  box-sizing: border-box;
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap; }
+
+/* Scss Document */
+.i-wrapper {
+  padding: 24px 21px;
+  border: 1px solid #B200B0;
+  display: inline-block;
+  border-radius: 55px;
+  margin: 7px; }
+
+.i-wrapper i {
+  /*color: $thirdeye;*/
+  font-size: 30px; }
+
+.sep {
+  background: #B200B0;
+  display: inline-block;
+  height: 1px;
+  margin: 0 0 10px;
+  width: 50px; }
+
+/* Scss Document */
+.toggled-on .toggle-content {
+  display: block;
+  background-image: url(../images/background/subtlepattern/subtle_grunge/subtle_grunge.png);
+  margin-top: 20px;
+  padding: 20px;
+  border-radius: 10px; }
+
+.toggle-content {
+  box-shadow: inset 0px 0px 10px #0c0b41; }
+
+.toggle-content p {
+  margin: 15px 0 15px 0; }
+
+.toggled-on .fa-angle-down {
+  display: none; }
+
+.toggle-title {
+  cursor: pointer;
+  position: relative;
+  padding-left: 55px; }
+
+.toggle-title i {
+  position: absolute;
+  left: 0;
+  font-size: 2.5em; }
+
+.toggled-off .toggle-content {
+  display: none; }
+
+.toggled-off .fa-angle-up {
+  display: none; }
+
+/* Scss Document */
+.image-scale {
+  width: 100%; }
+
+.gallery-margin {
+  margin-bottom: 30px; }
+
+/*! PhotoSwipe main CSS by Dmitry Semenov | photoswipe.com | MIT license */
+/*
+	Styles for basic PhotoSwipe functionality (sliding area, open/close transitions)
+*/
+/* pswp = photoswipe */
+.pswp {
+  display: none;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  overflow: hidden;
+  -ms-touch-action: none;
+  touch-action: none;
+  z-index: 1500;
+  -webkit-text-size-adjust: 100%;
+  /* create separate layer, to avoid paint on window.onscroll in webkit/blink */
+  -webkit-backface-visibility: hidden;
+  outline: none; }
+
+.pswp * {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
+
+.pswp img {
+  max-width: none; }
+
+/* style is added when JS option showHideOpacity is set to true */
+.pswp--animate_opacity {
+  /* 0.001, because opacity:0 doesn't trigger Paint action, which causes lag at start of transition */
+  opacity: 0.001;
+  will-change: opacity;
+  /* for open/close transition */
+  -webkit-transition: opacity 333ms cubic-bezier(0.4, 0, 0.22, 1);
+  transition: opacity 333ms cubic-bezier(0.4, 0, 0.22, 1); }
+
+.pswp--open {
+  display: block; }
+
+.pswp--zoom-allowed .pswp__img {
+  /* autoprefixer: off */
+  cursor: -webkit-zoom-in;
+  cursor: -moz-zoom-in;
+  cursor: zoom-in; }
+
+.pswp--zoomed-in .pswp__img {
+  /* autoprefixer: off */
+  cursor: -webkit-grab;
+  cursor: -moz-grab;
+  cursor: grab; }
+
+.pswp--dragging .pswp__img {
+  /* autoprefixer: off */
+  cursor: -webkit-grabbing;
+  cursor: -moz-grabbing;
+  cursor: grabbing; }
+
+/*
+	Background is added as a separate element.
+	As animating opacity is much faster than animating rgba() background-color.
+*/
+.pswp__bg {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: #000;
+  opacity: 0;
+  -webkit-backface-visibility: hidden;
+  will-change: opacity; }
+
+.pswp__scroll-wrap {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden; }
+
+.pswp__container,
+.pswp__zoom-wrap {
+  -ms-touch-action: none;
+  touch-action: none;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0; }
+
+/* Prevent selection and tap highlights */
+.pswp__container,
+.pswp__img {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-tap-highlight-color: transparent;
+  -webkit-touch-callout: none; }
+
+.pswp__zoom-wrap {
+  position: absolute;
+  width: 100%;
+  -webkit-transform-origin: left top;
+  -ms-transform-origin: left top;
+  transform-origin: left top;
+  /* for open/close transition */
+  -webkit-transition: -webkit-transform 333ms cubic-bezier(0.4, 0, 0.22, 1);
+  transition: transform 333ms cubic-bezier(0.4, 0, 0.22, 1); }
+
+.pswp__bg {
+  will-change: opacity;
+  /* for open/close transition */
+  -webkit-transition: opacity 333ms cubic-bezier(0.4, 0, 0.22, 1);
+  transition: opacity 333ms cubic-bezier(0.4, 0, 0.22, 1); }
+
+.pswp--animated-in .pswp__bg,
+.pswp--animated-in .pswp__zoom-wrap {
+  -webkit-transition: none;
+  transition: none; }
+
+.pswp__container,
+.pswp__zoom-wrap {
+  -webkit-backface-visibility: hidden; }
+
+.pswp__item {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  overflow: hidden; }
+
+.pswp__img {
+  position: absolute;
+  width: auto;
+  height: auto;
+  top: 0;
+  left: 0; }
+
+/*
+	stretched thumbnail or div placeholder element (see below)
+	style is added to avoid flickering in webkit/blink when layers overlap
+*/
+.pswp__img--placeholder {
+  -webkit-backface-visibility: hidden; }
+
+/*
+	div element that matches size of large image
+	large image loads on top of it
+*/
+.pswp__img--placeholder--blank {
+  background: #222; }
+
+.pswp--ie .pswp__img {
+  width: 100% !important;
+  height: auto !important;
+  left: 0;
+  top: 0; }
+
+/*
+	Error message appears when image is not loaded
+	(JS option errorMsg controls markup)
+*/
+.pswp__error-msg {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  font-size: 14px;
+  line-height: 16px;
+  margin-top: -8px;
+  color: #CCC; }
+
+.pswp__error-msg a {
+  color: #CCC;
+  text-decoration: underline; }

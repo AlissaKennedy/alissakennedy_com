@@ -1,0 +1,732 @@
+/* Scss Document */
+/* Scss Document */
+/* Scss Document */
+/* line 3, ../sass/partials/_layout.scss */
+body {
+  padding-top: 60px;
+}
+
+/* line 4, ../sass/partials/_layout.scss */
+body {
+  padding-top: 4.5rem;
+}
+
+/* line 7, ../sass/partials/_layout.scss */
+.row {
+  padding: 30px;
+}
+
+/* line 9, ../sass/partials/_layout.scss */
+.navbar {
+  border-bottom: 4px #6800AD solid;
+}
+
+/* line 10, ../sass/partials/_layout.scss */
+.navbar, #menu #menu-content {
+  background: #000;
+}
+
+/* line 14, ../sass/partials/_layout.scss */
+.image-scale {
+  max-width: 100%;
+}
+
+/* line 20, ../sass/partials/_layout.scss */
+#portfolio {
+  background-image: url(../images/background/subtlepattern/concrete_wall/concrete_wall_@2X.png);
+}
+
+/* line 23, ../sass/partials/_layout.scss */
+#resume-skills, #contact, #contactinfo {
+  background-image: url(../images/background/subtlepattern/subtle_grunge/subtle_grunge.png);
+}
+
+/* line 27, ../sass/partials/_layout.scss */
+#portfolio ul {
+  list-style-type: none;
+}
+
+/* line 29, ../sass/partials/_layout.scss */
+#footer {
+  background: #000453;
+  /* overflow: hidden; */
+}
+
+/* line 34, ../sass/partials/_layout.scss */
+.no-bullet {
+  list-style-type: none;
+}
+
+/* line 36, ../sass/partials/_layout.scss */
+#contactsection {
+  border: solid 2px #6800AD;
+  margin-bottom: 30px;
+}
+
+/* line 48, ../sass/partials/_layout.scss */
+.float-right {
+  float: right;
+}
+
+/* line 49, ../sass/partials/_layout.scss */
+.text-right {
+  text-align: right;
+}
+
+/* line 52, ../sass/partials/_layout.scss */
+.h-menu li {
+  display: inline-block;
+}
+
+/* Scss Document */
+/* line 3, ../sass/partials/_buttons.scss */
+.button-center {
+  text-align: center;
+  margin: 30px 0 0 0;
+}
+
+/* line 9, ../sass/partials/_buttons.scss */
+.btn-action {
+  font-size: 18px;
+  color: #FFFFFF;
+  transition: background 0.5s ease;
+  background-color: #B200B0;
+  border-color: #6800AD;
+  border: 5px;
+  text-align: center;
+  padding: 7.5px;
+}
+
+/* line 19, ../sass/partials/_buttons.scss */
+.btn-action:hover {
+  background-color: #0062FF;
+  color: #FFFFFF;
+}
+
+/* line 23, ../sass/partials/_buttons.scss */
+.btn:link, .btn:visited, .btn:active, .btn:hover {
+  color: #FFF;
+}
+
+/* line 25, ../sass/partials/_buttons.scss */
+.button-center {
+  text-align: center;
+  margin: 30px;
+}
+
+/* Scss Document */
+/* line 3, ../sass/partials/_typography.scss */
+body {
+  font-family: "Open Sans", Helvetica, Verdana, sans-serif;
+  color: #0c0b41;
+}
+
+/* line 9, ../sass/partials/_typography.scss */
+h1, h2 {
+  font-family: "Sofia", "Open Sans", Helvetica, Verdana, Sans-Serif;
+}
+
+/* line 12, ../sass/partials/_typography.scss */
+h3, h4, h5 {
+  font-family: "Josefin Sans", Helvetica, Verdana, sans-serif;
+  font-weight: 600;
+}
+
+/* line 17, ../sass/partials/_typography.scss */
+h2 {
+  text-align: center;
+  display: inline-block;
+  position: relative;
+  margin: 0 auto;
+}
+
+/* line 18, ../sass/partials/_typography.scss */
+h3 {
+  color: #6800AD;
+}
+
+/* line 19, ../sass/partials/_typography.scss */
+h5 {
+  font-size: 18px;
+  margin: 8px 0;
+}
+
+/* Medium viewport or screen */
+@media only screen and (max-width: 767px) {
+  /* line 23, ../sass/partials/_typography.scss */
+  h2 {
+    font-size: 30px;
+  }
+
+  /* line 24, ../sass/partials/_typography.scss */
+  h3, h4 {
+    font-size: 22px;
+  }
+
+  /* line 25, ../sass/partials/_typography.scss */
+  h5 {
+    font-size: 18px;
+  }
+}
+/* line 29, ../sass/partials/_typography.scss */
+.title {
+  font-family: "Josefin Sans", Helvetica, Verdana, sans-serif;
+  font-size: 18px;
+}
+
+/* line 35, ../sass/partials/_typography.scss */
+a:link, a:visited {
+  color: #0062FF;
+  text-decoration: none;
+}
+
+/* line 39, ../sass/partials/_typography.scss */
+a:hover, a:active {
+  text-decoration: underline;
+  color: #00CCFF;
+}
+
+/* line 44, ../sass/partials/_typography.scss */
+#footer a:link, footer a:visited {
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+/* line 52, ../sass/partials/_typography.scss */
+#text-logo {
+  color: #FFFFFF;
+  float: left;
+  display: block;
+  font-family: "Sofia", "Open Sans", Helvetica, Verdana, Sans-Serif;
+  font-size: 30px;
+}
+
+/* Medium viewport or screen */
+@media only screen and (max-width: 767px) {
+  /* line 62, ../sass/partials/_typography.scss */
+  #text-logo {
+    font-size: 1.1rem;
+  }
+}
+/* line 67, ../sass/partials/_typography.scss */
+#text-logo:hover {
+  color: #00CCFF;
+  transition: color 0.5s ease;
+}
+
+/* line 72, ../sass/partials/_typography.scss */
+#menu .navbar-brand {
+  padding: 15px 0px 0px 15px;
+}
+
+/* line 76, ../sass/partials/_typography.scss */
+#menu-content, footer {
+  font-family: "Josefin Sans", Helvetica, Verdana, sans-serif;
+  font-size: 1.2rem;
+  float: right;
+  position: relative;
+}
+
+/* line 85, ../sass/partials/_typography.scss */
+#menu-content li {
+  margin: 15px;
+}
+
+/* line 87, ../sass/partials/_typography.scss */
+#menu-content li a:link, #menu-content li a:visited {
+  color: #ffffff;
+  transition: color 0.5s ease;
+}
+
+/* line 93, ../sass/partials/_typography.scss */
+#menu-content li a:hover, #menu-content li a:active {
+  color: #00CCFF;
+  transition: color 0.5s ease;
+  text-decoration: none;
+}
+
+/* line 99, ../sass/partials/_typography.scss */
+#navbar-nav ul li a, footer ul li a {
+  display: inline-block;
+  position: relative;
+  padding: 15px;
+}
+
+/* line 109, ../sass/partials/_typography.scss */
+#portfolio, #footer {
+  color: white;
+}
+
+/* line 113, ../sass/partials/_typography.scss */
+.figure-caption {
+  background-color: #efefef;
+  padding: 10px;
+  margin-bottom: 30px;
+}
+
+/* Medium viewport or screen */
+@media only screen and (min-width: 992px) {
+  /* line 121, ../sass/partials/_typography.scss */
+  #stuff-about-me, #resume-intro {
+    font-size: 1.4rem;
+    font-family: "Josefin Sans", Helvetica, Verdana, sans-serif;
+  }
+}
+/* line 127, ../sass/partials/_typography.scss */
+.mask {
+  text-shadow: 2px 2px 4px #000000;
+}
+
+/* Scss Document */
+/* line 3, ../sass/partials/_social-icons.scss */
+.social i {
+  font-size: 20px;
+  color: #ffffff;
+  transition: background 0.3s ease;
+  background-color: #00056b;
+  width: 35px;
+  height: 35px;
+  text-align: center;
+  border-radius: 50%;
+  padding: 7.5px;
+  margin: 15px 0 0 15px;
+}
+
+/* Small viewport or screen */
+@media only screen and (max-width: 350px) {
+  /* line 18, ../sass/partials/_social-icons.scss */
+  .social i {
+    font-size: 22px;
+    width: 50px;
+    height: 50px;
+    padding: 12px;
+  }
+}
+/* line 27, ../sass/partials/_social-icons.scss */
+.social .fa-linkedin:hover {
+  background-color: #007bb5;
+}
+
+/* line 30, ../sass/partials/_social-icons.scss */
+.social .fa-twitter:hover {
+  background-color: #55acee;
+}
+
+/* line 33, ../sass/partials/_social-icons.scss */
+.social .fa-facebook:hover {
+  background-color: #3b5998;
+}
+
+/* line 36, ../sass/partials/_social-icons.scss */
+.social .fa-instagram:hover {
+  background-color: #bc2a8d;
+}
+
+/* line 39, ../sass/partials/_social-icons.scss */
+.social .fa-behance:hover {
+  background-color: #053eff;
+}
+
+/* Scss Document */
+/* line 3, ../sass/partials/_gradient.scss */
+.gradient {
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#0062ff+0,6800ad+33,b200b0+65,e0043f+100 */
+  background: #0062ff;
+  /* Old browsers */
+  background: -moz-linear-gradient(left, #0062ff 0%, #6800ad 33%, #b200b0 66%, #e0043f 100%);
+  /* FF3.6-15 */
+  background: -webkit-linear-gradient(left, #0062ff 0%, #6800ad 33%, #b200b0 66%, #e0043f 100%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to right, #0062ff 0%, #6800ad 33%, #b200b0 66%, #e0043f 100%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0062ff', endColorstr='#e0043f',GradientType=1 );
+  /* IE6-9 */
+}
+
+/* line 12, ../sass/partials/_gradient.scss */
+.gradi1 {
+  color: #E0043F;
+}
+
+/* line 13, ../sass/partials/_gradient.scss */
+.gradi2 {
+  color: #B200B0;
+}
+
+/* line 14, ../sass/partials/_gradient.scss */
+.gradi3 {
+  color: #6800AD;
+}
+
+/* line 15, ../sass/partials/_gradient.scss */
+.gradi4 {
+  color: #0062FF;
+}
+
+/* line 16, ../sass/partials/_gradient.scss */
+.gradi5 {
+  color: #00CCFF;
+}
+
+/* Scss Document */
+/* line 3, ../sass/partials/_progress-bar.scss */
+.progress {
+  background-color: #EBEBEB;
+}
+
+/* line 7, ../sass/partials/_progress-bar.scss */
+.progress-bar {
+  background-color: #0062FF;
+}
+
+/* line 11, ../sass/partials/_progress-bar.scss */
+.loading-title {
+  color: #6800AD;
+  font-weight: bold;
+  /*font-family: $font-geo;
+  font-size:1.5em;*/
+}
+
+/* Scss Document */
+/* line 3, ../sass/components/_card.scss */
+#cardbox {
+  display: inline;
+}
+
+/* line 8, ../sass/components/_card.scss */
+.skill-card {
+  padding: 10px;
+}
+
+/* line 19, ../sass/components/_card.scss */
+.card-style {
+  height: 100%;
+  border: 1px solid gray;
+  box-shadow: 1px 1px 3px #888;
+  border-top: 10px solid #00056b;
+  display: block;
+  padding: 10px;
+  overflow: hidden;
+  background-color: #FFFFFF;
+}
+
+/* line 29, ../sass/components/_card.scss */
+#cardbox {
+  box-sizing: border-box;
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* Scss Document */
+/* line 3, ../sass/components/_icons.scss */
+.i-wrapper {
+  padding: 24px 21px;
+  border: 1px solid #B200B0;
+  display: inline-block;
+  border-radius: 55px;
+  margin: 7px;
+}
+
+/* line 11, ../sass/components/_icons.scss */
+.i-wrapper i {
+  /*color: $thirdeye;*/
+  font-size: 30px;
+}
+
+/* line 16, ../sass/components/_icons.scss */
+.sep {
+  background: #B200B0;
+  display: inline-block;
+  height: 1px;
+  margin: 0 0 10px;
+  width: 50px;
+}
+
+/* Scss Document */
+/* line 3, ../sass/components/_toggle.scss */
+.toggled-on .toggle-content {
+  display: block;
+  background-image: url(../images/background/subtlepattern/subtle_grunge/subtle_grunge.png);
+  margin-top: 20px;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+/* line 11, ../sass/components/_toggle.scss */
+.toggle-content {
+  box-shadow: inset 0px 0px 10px #0c0b41;
+}
+
+/* line 13, ../sass/components/_toggle.scss */
+.toggle-content p {
+  margin: 15px 0 15px 0;
+}
+
+/* line 15, ../sass/components/_toggle.scss */
+.toggled-on .fa-angle-down {
+  display: none;
+}
+
+/* line 18, ../sass/components/_toggle.scss */
+.toggle-title {
+  cursor: pointer;
+  position: relative;
+  padding-left: 55px;
+}
+
+/* line 23, ../sass/components/_toggle.scss */
+.toggle-title i {
+  position: absolute;
+  left: 0;
+  font-size: 2.5em;
+}
+
+/* line 28, ../sass/components/_toggle.scss */
+.toggled-off .toggle-content {
+  display: none;
+}
+
+/* line 31, ../sass/components/_toggle.scss */
+.toggled-off .fa-angle-up {
+  display: none;
+}
+
+/* Scss Document */
+/* line 3, ../sass/components/_hover-gallery-color.scss */
+.image-scale {
+  width: 100%;
+}
+
+/* line 7, ../sass/components/_hover-gallery-color.scss */
+.gallery-margin {
+  margin-bottom: 30px;
+}
+
+/*! PhotoSwipe main CSS by Dmitry Semenov | photoswipe.com | MIT license */
+/*
+	Styles for basic PhotoSwipe functionality (sliding area, open/close transitions)
+*/
+/* pswp = photoswipe */
+/* line 6, ../sass/vendor/_photoswipe.scss */
+.pswp {
+  display: none;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  overflow: hidden;
+  -ms-touch-action: none;
+  touch-action: none;
+  z-index: 1500;
+  -webkit-text-size-adjust: 100%;
+  /* create separate layer, to avoid paint on window.onscroll in webkit/blink */
+  -webkit-backface-visibility: hidden;
+  outline: none;
+}
+
+/* line 21, ../sass/vendor/_photoswipe.scss */
+.pswp * {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* line 24, ../sass/vendor/_photoswipe.scss */
+.pswp img {
+  max-width: none;
+}
+
+/* style is added when JS option showHideOpacity is set to true */
+/* line 28, ../sass/vendor/_photoswipe.scss */
+.pswp--animate_opacity {
+  /* 0.001, because opacity:0 doesn't trigger Paint action, which causes lag at start of transition */
+  opacity: 0.001;
+  will-change: opacity;
+  /* for open/close transition */
+  -webkit-transition: opacity 333ms cubic-bezier(0.4, 0, 0.22, 1);
+  transition: opacity 333ms cubic-bezier(0.4, 0, 0.22, 1);
+}
+
+/* line 36, ../sass/vendor/_photoswipe.scss */
+.pswp--open {
+  display: block;
+}
+
+/* line 39, ../sass/vendor/_photoswipe.scss */
+.pswp--zoom-allowed .pswp__img {
+  /* autoprefixer: off */
+  cursor: -webkit-zoom-in;
+  cursor: -moz-zoom-in;
+  cursor: zoom-in;
+}
+
+/* line 45, ../sass/vendor/_photoswipe.scss */
+.pswp--zoomed-in .pswp__img {
+  /* autoprefixer: off */
+  cursor: -webkit-grab;
+  cursor: -moz-grab;
+  cursor: grab;
+}
+
+/* line 51, ../sass/vendor/_photoswipe.scss */
+.pswp--dragging .pswp__img {
+  /* autoprefixer: off */
+  cursor: -webkit-grabbing;
+  cursor: -moz-grabbing;
+  cursor: grabbing;
+}
+
+/*
+	Background is added as a separate element.
+	As animating opacity is much faster than animating rgba() background-color.
+*/
+/* line 61, ../sass/vendor/_photoswipe.scss */
+.pswp__bg {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: #000;
+  opacity: 0;
+  -webkit-backface-visibility: hidden;
+  will-change: opacity;
+}
+
+/* line 72, ../sass/vendor/_photoswipe.scss */
+.pswp__scroll-wrap {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+/* line 80, ../sass/vendor/_photoswipe.scss */
+.pswp__container,
+.pswp__zoom-wrap {
+  -ms-touch-action: none;
+  touch-action: none;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+}
+
+/* Prevent selection and tap highlights */
+/* line 91, ../sass/vendor/_photoswipe.scss */
+.pswp__container,
+.pswp__img {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-tap-highlight-color: transparent;
+  -webkit-touch-callout: none;
+}
+
+/* line 100, ../sass/vendor/_photoswipe.scss */
+.pswp__zoom-wrap {
+  position: absolute;
+  width: 100%;
+  -webkit-transform-origin: left top;
+  -ms-transform-origin: left top;
+  transform-origin: left top;
+  /* for open/close transition */
+  -webkit-transition: -webkit-transform 333ms cubic-bezier(0.4, 0, 0.22, 1);
+  transition: transform 333ms cubic-bezier(0.4, 0, 0.22, 1);
+}
+
+/* line 110, ../sass/vendor/_photoswipe.scss */
+.pswp__bg {
+  will-change: opacity;
+  /* for open/close transition */
+  -webkit-transition: opacity 333ms cubic-bezier(0.4, 0, 0.22, 1);
+  transition: opacity 333ms cubic-bezier(0.4, 0, 0.22, 1);
+}
+
+/* line 116, ../sass/vendor/_photoswipe.scss */
+.pswp--animated-in .pswp__bg,
+.pswp--animated-in .pswp__zoom-wrap {
+  -webkit-transition: none;
+  transition: none;
+}
+
+/* line 121, ../sass/vendor/_photoswipe.scss */
+.pswp__container,
+.pswp__zoom-wrap {
+  -webkit-backface-visibility: hidden;
+}
+
+/* line 125, ../sass/vendor/_photoswipe.scss */
+.pswp__item {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  overflow: hidden;
+}
+
+/* line 133, ../sass/vendor/_photoswipe.scss */
+.pswp__img {
+  position: absolute;
+  width: auto;
+  height: auto;
+  top: 0;
+  left: 0;
+}
+
+/*
+	stretched thumbnail or div placeholder element (see below)
+	style is added to avoid flickering in webkit/blink when layers overlap
+*/
+/* line 144, ../sass/vendor/_photoswipe.scss */
+.pswp__img--placeholder {
+  -webkit-backface-visibility: hidden;
+}
+
+/*
+	div element that matches size of large image
+	large image loads on top of it
+*/
+/* line 151, ../sass/vendor/_photoswipe.scss */
+.pswp__img--placeholder--blank {
+  background: #222;
+}
+
+/* line 154, ../sass/vendor/_photoswipe.scss */
+.pswp--ie .pswp__img {
+  width: 100% !important;
+  height: auto !important;
+  left: 0;
+  top: 0;
+}
+
+/*
+	Error message appears when image is not loaded
+	(JS option errorMsg controls markup)
+*/
+/* line 164, ../sass/vendor/_photoswipe.scss */
+.pswp__error-msg {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  font-size: 14px;
+  line-height: 16px;
+  margin-top: -8px;
+  color: #CCC;
+}
+
+/* line 175, ../sass/vendor/_photoswipe.scss */
+.pswp__error-msg a {
+  color: #CCC;
+  text-decoration: underline;
+}
+
+/*# sourceMappingURL=main.css.map */

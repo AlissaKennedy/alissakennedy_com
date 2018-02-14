@@ -1,0 +1,21 @@
+/* Scss Document */
+
+ .i-wrapper {
+  padding: 24px 21px;
+  border: 1px solid $neonlotus;
+  display: inline-block;
+  border-radius: 55px; 
+  margin:7px;
+}
+
+.i-wrapper i {  
+	/*color: $thirdeye;*/
+  font-size: 30px;
+}
+
+.sep {
+  background: $neonlotus;
+  display: inline-block;
+  height: 1px;
+  margin: 0 0 10px;
+  width: 50px; }

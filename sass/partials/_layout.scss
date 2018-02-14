@@ -1,0 +1,53 @@
+/* Scss Document */
+
+body {padding-top:60px;}
+body { padding-top: 4.5rem; }
+
+
+.row {padding: 30px;}
+
+.navbar {border-bottom: 4px $thirdeye solid;}
+.navbar, #menu #menu-content {
+    background: #000;
+}
+
+.image-scale {
+	max-width: 100%;
+}
+
+// Backgrounds
+
+#portfolio {
+	background-image:url(../images/background/subtlepattern/concrete_wall/concrete_wall_@2X.png);
+}
+#resume-skills, #contact, #contactinfo {
+	background-image:url(../images/background/subtlepattern/subtle_grunge/subtle_grunge.png);
+}
+
+#portfolio ul {list-style-type: none;}
+
+#footer {
+  background: #000453;
+ /* overflow: hidden; */
+}
+
+.no-bullet {list-style-type:none;}
+
+#contactsection {
+	border: solid 2px $thirdeye;
+	margin-bottom:30px
+}
+
+
+// FOOTER
+
+
+
+// Floats and Centering
+
+.float-right {float:right;}
+.text-right {text-align:right;}
+
+.h-menu {
+	li {display:inline-block;}
+}

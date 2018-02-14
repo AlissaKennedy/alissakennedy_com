@@ -1,0 +1,16 @@
+/* Scss Document */
+
+.gradient {
+/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#0062ff+0,6800ad+33,b200b0+65,e0043f+100 */
+background: #0062ff; /* Old browsers */
+background: -moz-linear-gradient(left,  #0062ff 0%, #6800ad 33%, #b200b0 66%, #e0043f 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(left,  #0062ff 0%,#6800ad 33%,#b200b0 66%,#e0043f 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to right,  #0062ff 0%,#6800ad 33%,#b200b0 66%,#e0043f 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0062ff', endColorstr='#e0043f',GradientType=1 ); /* IE6-9 */
+}
+
+.gradi1 {color: $gradi1; }
+.gradi2 {color: $gradi2; }
+.gradi3 {color: $gradi3; }
+.gradi4 {color: $gradi4; }
+.gradi5 {color: $gradi5; }
